@@ -6,16 +6,17 @@ Code for the paper: Upgrading the R570 sugarcane genome with ultra-long Nanopore
 git clone https://github.com/wangge-1996/R570_Sugarcane_Genome_Upgrade.git
 cd R570_Sugarcane_Genome_Upgrade
 ```
-### Dependencies
+### Install Dependencies
 ```yaml
-python=3.9
-biopython>=1.84
-pandas>=2.2.3
-numpy>=1.26.4
-bedtools>=2.31.1
-openpyxl>=3.1.5
-pytables>=3.9.2
-pip>=24.3.1
+dependencies:
+  - python=3.9
+  - biopython>=1.84
+  - pandas>=2.2.3
+  - numpy>=1.26.4
+  - bedtools>=2.31.1
+  - openpyxl>=3.1.5
+  - pytables>=3.9.2
+  - pip>=24.3.1
 ```
 ## Usage
 Prior to running the pipeline, the resequencing data must be assembled into contigs. Flye, minimap2 and hifiasm are recommended for this purpose.
