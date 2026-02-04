@@ -6,7 +6,7 @@ Code for the paper: Upgrading the R570 sugarcane genome with ultra-long Nanopore
 Prior to running the pipeline, the resequencing data must be assembled into contigs. Flye, minimap2 and hifiasm are recommended for this purpose.
 ```bash
 python 0_seqdata.py
-
+```
 The extracted sequences need to be aligned with the reference genome using BLAST.
 
 ```bash
