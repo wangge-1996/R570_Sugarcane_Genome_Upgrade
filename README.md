@@ -3,6 +3,7 @@ Code for the paper: Upgrading the R570 sugarcane genome with ultra-long Nanopore
 # Installation
 
 # Usage
+```python
 python 0_seqdata.py
 python 1_gap_filling.py
 python 1_head_tail_filling.py
