@@ -34,3 +34,5 @@ python 1_head_tail_filling.py
 python 1_result_merge.py
 # Step 4: Update reference genome and annotation files
 python 2_update_files.py
+```
+## Citation
