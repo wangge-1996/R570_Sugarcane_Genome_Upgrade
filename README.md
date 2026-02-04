@@ -1,5 +1,5 @@
 # R570_Sugarcane_Genome_Upgrade
-Code for the paper: Upgrading the R570 sugarcane genome with ultra-long Nanopore reads improves resistance-gene discovery
+Code for the paper: Upgrading the R570 sugarcane genome with ultra-long Nanopore reads improves resistance-gene discovery. This pipeline enables gap filling and head-tail extension of genomes.
 ## Installation
 ### Getting started
 ```bash
