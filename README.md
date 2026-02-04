@@ -12,6 +12,7 @@ dependencies:
   - openpyxl>=3.1.5
   - pytables>=3.9.2
   - pip>=24.3.1
+```
 ## Usage
 Prior to running the pipeline, the resequencing data must be assembled into contigs. Flye, minimap2 and hifiasm are recommended for this purpose.
 ```bash
